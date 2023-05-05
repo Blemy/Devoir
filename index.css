@@ -1,0 +1,249 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style: none;
+}
+
+h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav
+{
+    background-color: rgb(231, 200, 200);
+    width: 100%;
+    position: fixed;
+    
+}
+
+nav li
+{
+    float: right;
+    font-size: 1.5em;
+
+}
+
+#clos
+{
+    float: left;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+header li a
+{
+    text-align: center;
+    padding: 18px 16px;
+    display: block;
+}
+
+#imageprincipale
+{
+    background: url("./WhatsApp\ Image\ 2023-05-04\ à\ 18.07.47.jpg") no-repeat fixed 80% 50%;
+    height: 900px;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+header
+{
+    overflow: hidden;
+}
+
+header h1 
+{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 6em;
+    text-shadow: 1px 3px 2px black;
+    margin-top: 100px;
+}
+
+#trait1
+{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: rgb(255, 0, 0);
+}
+h3
+{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+    padding: 12px 0%;
+
+}
+
+#section1
+{
+    background-color: rgb(252, 201, 201);
+    padding: 10px 0 10px 0;
+}
+
+#textprincipale
+{
+    padding: 0 20% ;
+    color: black;
+}
+
+#partieImage
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.imagesparties img
+{
+    border-radius: 10px;
+    box-shadow: 5px 3px 6px rgb(0, 0, 0);
+    width: 200px;
+    
+}
+
+.imagesparties img:hover
+{
+    opacity: 0.3;
+    transform: scale(1.05);
+    transition: 0.9s ease-in-out;
+}
+
+h4
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#section2
+{
+    background: rgb(104, 233, 194);
+    width: 100%;
+    overflow: hidden;
+}
+#section2 h2
+{
+    padding-top: 60px;
+}
+
+#blocksection2
+{
+    max-width: 80px;
+    margin: 0 auto;
+}
+#ocean
+{
+    background: url("./5555555.jpg") no-repeat 50% 50%;
+    height: 900px;
+    
+}
+#chateau
+{
+    background: url("./WhatsApp\ 1.jpg") no-repeat 50% 50%;
+    height: 900px;
+}
+#vignoble
+{
+    background: url("./WhatsApp\ Image\ 2023-05-04\ à\ 19.07.2054444445741547.jpg") no-repeat 50% 50%;
+    height: 900px;
+}
+#phare
+{
+    background: url("./WhatsApp\ Image\ 2023-05-04\ à\ 19.07.1933333.jpg") no-repeat 50% 50%;
+    height: 900px;
+}
+
+
+#section2 li
+{
+    margin: 65px 100px 0px 100px;
+    height: 800px;
+    width: 80%;
+    max-width: 550px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+
+#section2 p
+{
+    height: 45px;
+    width: 235px;
+    background-color: #53a5f1;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgb(106, 108, 243) ;
+    border-radius: 20px;
+}
+
+#ocean p, #phare p
+{
+    float:left;
+    text-align: left;
+    background-color: #231fe6; 
+    opacity: 0.9;
+}
+#chateau p, #vignoble p
+{
+    float:left;
+    text-align: right;
+    background-color: rgb(70, 220, 240);
+    opacity: 0.9;
+    box-shadow: 4px 8px 9px rgb(204, 204, 198);
+    margin-left: 500px;
+}
+
+footer
+{
+    background-color: rgb(241, 211, 235);
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    
+}
+form
+{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, feGaussianBlur
+button
+{
+    border: none;
+    padding: 15px 10px;
+    width: 55%;
+    margin: 2px 0;
+    border-radius: 12px;
+    font-family: cursive;
+}
+
+img
+{
+    border-radius: 199px;
+
+}
